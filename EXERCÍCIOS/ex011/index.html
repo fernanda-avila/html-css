@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mídias em HTML5</title>
 </head>
+
 <body>
-    
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="imagem flexivel">
+
+
+
+
+    </picture>
+    <h1>Reproduzindo Áudio 💿</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5
+
+    </p>
+    <h2>PodCast </h2>
+    <audio preload="metadata" autoplay controls>
+        <source src="mídias/guanacast.mp3" type="audio/mpeg">
+        <source src="mídias/guanacast.ogg" type="audio/ogg">
+        <source src="mídias/guanacast.wav" type="audio/wav">
+        <p>Infelizmente, seu navegador não consegue reproduzir áudio. <a href="mídias/guanacast.mp3">Clique aqui para
+                fazer o download do arquivo em MP3</a></p>
+    </audio>
+    <h2>Música</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="mídias/helium.mp3" type="audio/mpeg">
+        <source src="mídias/helium.ogg" type="audio/ogg">
+        <source src="mídias/helium.wav" type="audio/wav">
+        <p>Infelizmente, seu navegador não consegue reproduzir audio. <a href="mídias/helium.mp3">Clique aqui para fazer
+                o Download do arquivo em MP3</a></p>
+    </audio>
+    </audio>
+
+
+
+
+
+    </audio>
+    <br>
+    <h1></h1>
+
+
+
 </body>
+
 </html>
