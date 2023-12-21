@@ -1,2 +1,2 @@
-# html-css
-Repositório com meus estudos sobre HTML e CSS
+# html-css #python
+Repositório com meus estudos e exercícios de treinamento em html, css e python
